@@ -1,5 +1,6 @@
 # DefiFund-Core
 core of defi fund
+
 Introduction
 Getting acquainted with the TTTdefi Fund protocol.
 TTTdefi Fund is an advanced timelock for ETH and ERC-20 assets. Using TTTdefi Fund, you can lock in the time value of your assets. 
@@ -78,3 +79,4 @@ _newBeneficiary	address	New beneficiary address.
 
 function renounceOwnership() public onlyOwner 
 Renounce ownership of fund. Will no longer be possible to call increaseTime or updateBeneficiary.
+
